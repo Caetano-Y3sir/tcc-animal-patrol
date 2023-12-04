@@ -182,16 +182,13 @@
     }
 
     .teexto {
-        margin: 2rem 0 0 3rem;
-        width: 33rem;
+        height: auto;
+        width: 100%;
+        display: block;
+        justify-content: space-around;
     }
 
-    .texxto {
-        position: relative;
-        display: flex;
-        justify-content: end;
-        width: 96%;
-    }
+    
 
     footer {
         display: flex;
@@ -206,7 +203,6 @@
         color: #f2f2f2;
         font-size: 1rem;
         transition: all 0.2s;
-        background-color: aquamarine;
     }
 
     .rodape:hover {
