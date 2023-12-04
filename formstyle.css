@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mooli';
+    color: white;
+    background-color: #ff9b3d;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #FF7621;
+    display: flex;
+}
+
+.squerda {
+    display: flex;
+}
+
+
+.direitinha {
+    background-color: #26164a;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.titlo {
+    margin-left: 14rem;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botones {
+    width: 100%;
+    height: 100%;
+}
+
+.butones {
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotoralha {
+    width: auto;
+    height: 100%;
+}
+
+.hello {
+    font-family: 'Mooli';
+    font-size: 1.75rem;
+    color: #f7f1f1;
+    margin-left: 1rem;
+    transition: all 300ms ease;
+}
+
+.hello:hover {
+    /*quando passar o mouse em cima acontece oq ta escrito*/
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.hola {
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.hola:hover {
+    /*quando passar o mouse em cima acontece oq ta escrito*/
+    transform: translateY(-8px);
+
+}
+
+.icon {
+    border-radius: 1rem 1rem 0 0;
+    height: 20rem;
+    width: 20rem;
+}
+
+.nome {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.oq.faz {
+    font-size: 1rem;
+    color: rgb(105, 105, 105);
+}
+
+.participantes {
+    margin-top: 3rem;
+    height: 30rem;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.animal {
+    height: 90%;
+    width: 20rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem #29292925;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.animal:hover {
+    /*quando passar o mouse em cima acontece oq ta escrito*/
+    transform: translateY(-20px);
+    filter: drop-shadow(0 0 1rem #efeaea);
+    box-shadow: 0 0 4rem #0000003f;
+}
+
+
+
+
+
+   /*pra janela modal*/
+   .window {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #FFF;
+    text-align: left;
+    z-index: 9900;
+    padding: 10px;
+    border-radius: 1rem;
+    color: #361e6e;
+}
+
+#mascara {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #0000006e;
+}
+
+.janjela {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    background: #f3a03a;
+    z-index: 9900;
+    border-radius: 10px;
+    width: 9rem;
+}
+
+.in {
+    margin-bottom: 0px;
+}
+
+.w {
+    margin-top: 10px;
+}
+
+.log {
+    font-family: 'Mooli';
+    font-size: 1.75rem;
+    width: 100%;
+    color: #f8f5f5;
+    transition: all 300ms ease;
+}
+
+.log:hover {
+    /*quando passar o mouse em cima acontece oq ta escrito*/
+    background-color: #f8b25c;
+}
+
+#maskra {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #00000017;
+}
+
+.enviar {
+    font-family: 'Mooli';
+    background-color: #FF3C00;
+    display: block;
+    transition: color 0.2s ease, font-size 0.2s ease, text-shadow 0.2s ease;
+}
+
+.enviar:hover {
+    /*quando passar o mouse em cima acontece oq ta escrito*/
+    font-family: 'Mooli';
+    font-size: 1.2rem;
+    background-color: #ff5723;
+    box-shadow: 0rem 0rem 0.5rem rgb(255, 199, 43);
+}
+
+.acbecalho{
+    display: flex;
+    height: 4rem;
+}
+
+a .fechar {
+    display: block;
+    font-family: 'Mooli';
+    cursor: pointer;
+    text-align: right;
+    transition: all  300ms ease;
+    color: #361e6e;
+}
+
+
+.x {
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 1.3rem;
+}
+
+.x :hover{
+    margin-top: 0.7rem;
+}
+
+.informe{
+    margin-top: 1rem;
+}
+
+
+
+
+
+h5 {
+    color: #363636;
+}
+
+.login {
+    width: 100%;
+    height: 60.3rem;
+    display: flex;
+}
+
+.textin {
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.btn-submit {
+
+    width: 160px;
+    color: #fff;
+    font-family: 'Mooli';
+    font-size: 1.75rem;
+    text-align: center;
+    border-radius: 1rem;
+    display: inline-block;
+    background-color: #db570b;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    border: none;
+
+}
+
+.btn-submit:hover {
+
+    transform: translateY(5px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+    .btn-submit {
+        font-size: 1.75rem;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+input[type=checkbox]+label {
+    color: #ccc;
+}
+
+input[type=checkbox]:checked+label {
+    color: #ff0000;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #361e6e;
+    border-radius: 7px;
+    padding: 40px;
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    color: #361e6e;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #361e6e;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #b95411;
+}
+
+.formLogin input {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #28055d;
+    transition: all linear 160ms;
+}
+
+
+.btn {
+    background-color: #FF7621;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #db570b;
+}
+
+footer {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #26164a;
+}
+
+.rodape {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+}
+
+.rodape:hover {
+    color: #FF7621;
+}
+
+.t {
+    padding: 1rem;
+}
+
+.degrade {
+    width: 100%;
+    height: 3rem;
+    background-image: linear-gradient(to bottom, #ff9b3d 1%, #653ac93f, #391655ce);
+    /*fazer o degrade de cima pra baixo*/
+    display: flex;
+
+}

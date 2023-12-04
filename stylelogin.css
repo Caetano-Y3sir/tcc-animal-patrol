@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body{
+    font-family: 'Mooli';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h5{
+    color: #363636;
+}
+
+.botones{
+    width: auto;
+    height: 100%;
+   
+}
+
+.butones{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hello{
+    font-family: 'Mooli';
+    font-size: 1.75rem;
+    color: #f7f1f1;
+    margin-left: 1rem;
+    transition: all 300ms ease;
+}
+
+.hello:hover{/*quando passar o mouse em cima acontece oq ta escrito*/
+    transform: translateY(-5px);
+}
+
+body{
+    font-family: 'Mooli';
+    color: white;
+}
+
+.titlo{
+    margin-left: 14rem;
+    margin-top: 50px;
+}
+
+.imagem{
+    width: 40rem;
+    height: 100%;
+    background-image: url('imagis/dog-login.png'); /*usar isso ao inves de por img no html, 
+    faz com q a img siga o tamanho da div*/
+    background-position: center;
+    image-rendering: pixelated; /*aumenta a qualidade da imagem*/
+    background-size: 126%; /*muda o tamanho da imagem*/
+    filter: saturate(130%) contrast(115%); /*meio q edita a img*/
+    background-repeat: no-repeat;
+    
+}
+
+img{
+  width: 40rem;
+  height: 100%;
+}
+
+.login{
+    width: 100%;
+    height: 60.3rem;
+    display: flex;
+}
+
+.textin{
+    color: #ffffff; 
+    margin-left: 5px;
+}
+
+/*LISTA DE CORES
+	db570b
+	d17014
+	FF7621
+	ececec
+	e08f26
+    eb9008
+	803b0d
+	134a4666*/
+
+
+
+
+
+/*CÓDIGO DO LOGIN Q DPS Q EU APRENDO*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #FF7621
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #eb9008;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #b95411;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #FF7621;
+}
+
+.btn {
+    background-color: #FF7621;
+    color: #fff;
+    font-family: 'Mooli';
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #db570b;
+
+}

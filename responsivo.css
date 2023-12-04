@@ -1,0 +1,219 @@
+@media (max-width: 769px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .adot {
+        margin-top: 1rem;
+        border-radius: 8px;
+        width: 20rem;
+        height: 6rem;
+    }
+
+    .adot:hover {
+        height: 6.6rem;
+    }
+
+    .hello {
+        margin-top: 0.8rem;
+        font-size: 1.1rem;
+        display: block;
+        margin-left: 0.5rem;
+    }
+
+    .hello:hover {
+        transform: translateY(-5px);
+    }
+
+    header {
+        height: 2.5rem;
+        display: flex;
+    }
+
+    .janjela {
+        top: 2.2rem;
+    }
+
+    .conteudo {
+        top: 24rem;
+        left: rem;
+        font-size: 1.2rem;
+        justify-content: flex-end;
+    }
+
+    .descricao {
+        line-height: 24px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+    .hola {
+        width: 2rem;
+        color: #fff;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+    }
+
+    .hola:hover {
+        transform: translateY(-8px);
+
+    }
+
+    .direitinha {
+        display: flex;
+        height: 100%;
+        width: 10rem;
+    }
+
+    .redes {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+    }
+
+    .fotoralha{
+        display: none;
+    }
+
+    .cllr{
+        display: flex;
+    }
+
+    .animales::after {
+        top: 21.5rem;
+        left: 0;
+        background: linear-gradient(180deg, #ff9b3d 10%, rgba(0, 0, 0, 0) 40%)no-repeat;
+    }
+
+    main .animalzito .imagemslide {
+        width: 100%;
+        height: 39rem;
+        object-fit: cover;
+    }
+
+    .botoes{
+        top: 20rem;
+        right: 1rem;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .botao{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .img-botao {
+        height: 2rem;
+        width: 2rem;
+    }
+
+   
+    .liao {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .oq.faz {
+        font-size: 0.78rem;
+    }
+
+    .sobre {
+        font-size: 3rem;
+    }
+
+    .quem {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+
+
+    .participantes {
+        align-items: center;
+        margin-left: 0rem;
+        width: 30rem;
+        height: 46rem;
+        justify-content: space-around;
+        display: inline-block;
+    }
+
+    .cima {
+        width: 26rem;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+
+    .baixo {
+        width: 26rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .informe{
+        margin-top: 4rem;
+    }
+
+    .site {
+        background-color: #f4f4f4;
+        font-size: 1.5rem;
+        color: #b95411;
+        width: 25rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        box-shadow: 1rem 1rem 1rem 0.1rem #0000004e
+    }
+
+
+    .funcao {
+        font-size: 1.7rem;
+        padding: 0;
+    }
+
+    .teexto {
+        margin: 2rem 0 0 3rem;
+        width: 33rem;
+    }
+
+    .texxto {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        width: 96%;
+    }
+
+    footer {
+        display: flex;
+        height: 5rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #26164a;
+    }
+
+    .rodape {
+        color: #f2f2f2;
+        font-size: 1rem;
+        transition: all 0.2s;
+        background-color: aquamarine;
+    }
+
+    .rodape:hover {
+        color: #FF7621;
+    }
+
+    .t {
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../stylecadastro.css">
+  <link rel="shortcut icon" type="image/jpg" href="../imagis/icone pag.png" />
+  <title>Agendamento para cachorros</title>
+</head>
+
+<body background="../imagis/cachorro-agen.jpg">
+  <div class="login">
+    <div class="page">
+      <div class="voltar">
+        <a href="../index.html">
+          <p class="hello"><b>Voltar à Página Inicial</b></p>
+        </a>
+      </div>
+      <form method="POST" class="formLogin" action="cadastro.php">
+        <h1>Vacina para o seu cachorro</h1>
+        <p>Digite os seus dados de acesso no campo abaixo.</p>
+        <input type="email" placeholder="Digite seu e-mail" autofocus="true" required />
+        <input type="password" placeholder="Digite sua senha" required />
+        <input type="text" placeholder="Digite o nome do seu animal" required />
+        <div class="mid">
+          <select name="vacina" id="" required>
+            <option selected disabled value>Retorno?</option>
+            <option value="">Retorno? Sim</option>
+            <option value="">Retorno? Não</option>
+          </select>
+          <select name="vacina" id="" required>
+            <option selected disabled value>Qual Vacina?</option>
+            <option value="">V8 ou V10</option>
+            <option value="">Antirrábica</option>
+            <option value="">Gripe Canina</option>
+          </select>
+        </div>
+        <p>Agende o horário que queira vir</p>
+        <input type="datetime-local" required />
+        <a target="_blank" class="rodape" href="../pdf/Termos de Uso.pdf">Termo de Serviço</a>
+        <a target="_blank" class="rodape" href="../pdf/Política de Privacidade.pdf">Política de Privacidade</a>
+        <input type="submit" value="Enviar" class="btn" />
+      </form>
+      <p></p>
+
+    </div>
+</body>
+
+</html>

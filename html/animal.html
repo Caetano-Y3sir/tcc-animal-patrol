@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../animalstyle.css">
+    <link rel="stylesheet" href="../animalresp.css">
+    <link rel="shortcut icon" type="image/jpg" href="../imagis/icone pag.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
+    <title>Escolha seu animal</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagis/MicrosoftTeams-image (1).png" alt="logotipo animal patrol" class="fotoralha">
+        </div>
+
+        <div class="botones"> <!--OS BOTÕES-->
+            <div class="butones">
+                <div class="squerda">
+                    <a class="hello" href="../index.html">
+                        <p class="hello">Início</p>
+                    </a>
+                    <a href="../index.html#quemsomos">
+                        <p class="hello">Quem Somos</p>
+                    </a>
+                    <a href="#janela1" rel="modal">
+                        <p class="hello">Fale Conosco</p>
+                    </a>
+                </div>
+
+                <div class="direitinha">
+                    <a href="https://www.instagram.com/animal_patrol2023/" target="_blank">
+                        <p class="hola"><img src="../imagis/instagram_branco.png" alt="instagram" class="redes"></p>
+                    </a>
+                    <a href="https://twitter.com/AnimalPatr5676" target="_blank">
+                        <p class="hola"><img src="../imagis/twitter.png" alt="twitter" class="redes"></p>
+                    </a>
+                    <a href="#janela2" rel="login-cad">
+                        <p class="hola"><img src="../imagis/icon_perfil.png" alt="perfil do usuário" class="redes"></p>
+                    </a>
+                </div>
+
+                <div class="window" id="janela1">
+                    <form method="POST" class="formLogin">
+                        <div class="acbecalho">
+                            <h1>Nos envie uma mensagem</h1>
+                            <div class="x"><a href="#" class="fechar">X</a></div>
+                        </div>
+                        <p class="informe">Nos informe sua experiência no nosso site para ajudar a melhorá-lo</p>
+                        <label for="text">Nome</label>
+                        <input type="text" placeholder="Digite seu nome" autofocus="true" required />
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Digite seu e-mail" autofocus="true" required />
+                        <label for="password">Sua Mensagem</label>
+                        <input type="text" placeholder="Digite sua mensagem" required />
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+                    </form>
+                </div>
+
+                <div id="maskra"></div>
+                <div class="janjela" id="janela2">
+                    <a href="html/login.html">
+                        <p class="log in">Login</p>
+                    </a>
+                    <a href="html/cadastro.html">
+                        <p class="log w">Cadastro</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- mascara para cobrir o site -->
+            <div id="mascara"></div>
+        </div>
+    </header>
+
+    <div class="titlo">
+        <h1>Escolha qual animal é o seu bichinho de estimação:</h1>
+    </div>
+    <div class="participantes">
+        <a href="vacinas2.html">
+            <div class="animal">
+                <center>
+                    <img class="icon" src="../imagis/gato.png" alt="vacinas para gatos" class="fotoralha">
+                    <div class="nome"><b>Gato</b></div>
+
+            </div>
+        </a></center>
+
+        <a href="vacinas1.html">
+            <div class="animal">
+                <center>
+                    <img class="icon" src="../imagis/lulu.png" alt="vacinas para gatos" class="fotoralha">
+                    <div class="nome"><b>Cachorro</b></div>
+
+            </div>
+        </a></center>
+    </div>
+    <p></p><br>
+    <div class="degrade"></div>
+    <footer>
+        <a target="_blank" class="rodape" href="../pdf/Termos de Uso.pdf">Termo de Serviço</a>
+        <h2 class="t">-</h2>
+        <a target="_blank" class="rodape" href="../pdf/Política de Privacidade.pdf">Política de Privacidade</a>
+    </footer>
+</body>
+
+</html>

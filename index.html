@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="shortcut icon" type="image/jpg" href="imagis/icone pag.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <title>Animal Patrol</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagis/MicrosoftTeams-image (1).png" alt="logotipo animal patrol" class="fotoralha">
+            <img src="../imagis/icone pag.png" alt="logotipo animal patrol" class="fotoralha cllr">
+        </div>
+
+        <div class="botones"> <!--OS BOTÕES-->
+            <div class="butones">
+                <div class="squerda">
+                    <a class="hello" href="html/animal.html">
+                        <p class="hello">Vacinas</p>
+                    </a>
+                    <a href="#quemsomos">
+                        <p class="hello">Quem Somos</p>
+                    </a>
+                    <a href="#janela1" rel="modal">
+                        <p class="hello">Fale Conosco</p>
+                    </a>
+                </div>
+
+                <div class="direitinha">
+                    <a href="https://www.instagram.com/animal_patrol2023/" target="_blank">
+                        <p class="hola"><img src="imagis/instagram_branco.png" alt="instagram" class="redes"></p>
+                    </a>
+                    <a href="https://twitter.com/AnimalPatr5676" target="_blank">
+                        <p class="hola"><img src="imagis/twitter.png" alt="twitter" class="redes"></p>
+                    </a>
+                    <a href="#janela2" rel="login-cad">
+                        <p class="hola"><img src="imagis/icon_perfil.png" alt="perfil do usuário" class="redes"></p>
+                    </a>
+                </div>
+
+                <div class="window" id="janela1">
+                    <form method="POST" class="formLogin">
+                        <div class="acbecalho">
+                            <h1>Nos envie uma mensagem</h1>
+                            <div class="x"><a href="#" class="fechar">X</a></div>
+                        </div>
+                        <p class="informe">Nos informe sua experiência no nosso site para ajudar a melhorá-lo</p>
+                        <label for="text">Nome</label>
+                        <input type="text" placeholder="Digite seu nome" autofocus="true" required />
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Digite seu e-mail" autofocus="true" required />
+                        <label for="text">Sua Mensagem</label>
+                        <input type="text" placeholder="Digite sua mensagem" required />
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+                    </form>
+                </div>
+
+                <div id="maskra"></div>
+                <div class="janjela" id="janela2">
+                    <a href="html/login.php">
+                        <p class="log in">Login</p>
+                    </a>
+                    <a href="html/cadastro.php">
+                        <p class="log w">Cadastro</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- mascara para cobrir o site -->
+            <div id="mascara"></div>
+        </div>
+    </header>
+    <center>
+        <button class="adot">
+            <a href="html/adotar.html" class="adot-texto">Adote um animalzinho</a>
+        </button>
+
+        <h1 class="titlo">Lista de Animais para Adoção:</h1>
+    </center>
+
+    <div class="noooooovo_slide">
+        <main class="animales">
+            <div class="animalzito">
+                <img class="imagemslide" alt="Pug" src="imagis/slides2/puginho.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">DUKE</h2>
+                    <p class="descricao">Macho | Porte: Pequeno Médio | Idade: 3 anos<br>
+                        Vacinado, Vermifugado e Castrado<br><br>
+                        Ele é bem dócil e beeem preguiçoso, adora um carinho e ficar
+                        deitado em algum lugar que bata sol.</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="animalzito">
+                <img class="imagemslide" alt="Pinscher" src="imagis/slides2/adamastor-pequeno.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">LITTLE</h2>
+                    <p class="descricao">Macho | Porte: Pequeno | Idade: 5 meses<br>
+                        Vacinado e Vermifugado.<br><br>
+                        Está evoluindo rápido, porém por ser bem novo ainda
+                        não está acostumado com o proprio nome nem comandos muito dificeis.</p>
+                </div>
+            </div>
+
+            <div class="animalzito">
+                <img class="imagemslide" alt="vira-lata" src="imagis/slides2/sabugo.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">FRED</h2>
+                    <p class="descricao">Macho | Porte: Pequeno | Idade: 4/5 anos<br>
+                        Vacinado, Vermifugado e Castrado.<br><br>
+                        Ele é bem calmo e adora ficar em casa, é bom incentivar um pouco
+                        ele pra sair para passear para evitar problemas de saúde.</p>
+                </div>
+            </div>
+
+            <div class="animalzito selecionado">
+                <img class="imagemslide" alt="gato caramelo" src="imagis/slides2/pisquila.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">SIMBA</h2>
+                    <p class="descricao">Macho | Porte: Pequeno | Idade: 3 meses<br>
+                        Vacinado e Vermifugado.<br><br>
+                        Ele é bem quietinho, porém com um tempo de confiança ele se mostra
+                        ser bastante carinhoso.</p>
+                </div>
+            </div>
+
+            <div class="animalzito">
+                <img class="imagemslide" alt="Xoxo" src="imagis/slides2/xoxo.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">KATY</h2>
+                    <p class="descricao">Fêmea | Porte: Medio | Idade: 5 anos<br>
+                        Vacinado, Vermifugado e Castrado.<br><br>
+                        É bem agitada e adora brincar, é bem acostumada com basicamente
+                        todo mundo.</p>
+                </div>
+            </div>
+
+            <div class="animalzito">
+                <img class="imagemslide" alt="Mel" src="imagis/slides2/mel.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">MEL</h2>
+                    <p class="descricao">Fêmea | Porte: Medio | Idade: 4 anos<br>
+                        Vacinado, Vermifugado e Castrado.<br><br>
+                        Ela é bem adoravel e alegre, deixa qualquer pessoa feliz quando
+                        está por perto, ela é um amor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="animalzito">
+                <img class="imagemslide" alt="Chucrute" src="imagis/slides2/chucrute.png">
+                <div class="conteudo">
+                    <h2 class="nome-animais">DUQUESA</h2>
+                    <p class="descricao">Fêmea | Porte: Medio | Idade: 5 anos<br>
+                        Vacinado, Vermifugado e Castrado.<br><br>
+                        É bem agitada e adora brincar, é bem acostumada com basicamente
+                        todo mundo. </p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <ul class="botoes">
+        <li>
+            <button class="botao" id="puginho">
+                <img class="img-botao" src="imagis/icones-slides/cao.png" alt="puginho">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img class="img-botao" src="imagis/icones-slides/cao.png" alt="botão cachorro do slide">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img class="img-botao" src="imagis/icones-slides/cao.png" alt="botão cachorro do slide">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao selecionado">
+                <img class="img-botao" src="imagis/icones-slides/feliz.png" alt="botão gato do slide">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img class="img-botao" src="imagis/icones-slides/feliz.png" alt="botão gato do slide">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img class="img-botao" src="imagis/icones-slides/cao.png" alt="botão cachorro do slide">
+            </button>
+        </li>
+
+        <li>
+            <button class="botao">
+                <img class="img-botao" src="imagis/icones-slides/feliz.png" alt="botão gato do slide">
+            </button>
+        </li>
+    </ul>
+    </div>
+    <div class="teexto">
+        <div class="funcao">
+            <div>
+                <h2><b>Qual a função do site?</b></h2>
+            </div>
+            <div class="site">Divulgação do centro de adoção animais e das necessidades de cada pet,
+                como medicamentos, cuidados e vacinas realizadas até o momento da adoção.
+                O site também terá um cadastro para o cliente, permitindo que ele seja identificado
+                na hora do login.
+                Haverá também serviços adicionais, como: vacinação, doação, cadastro para voluntários
+                e outros, que serão agendados pelo site ou no fale conosco.</div>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="funcao">
+            <div>
+                <h2><b>Sobre as vacinas</b></h2>
+
+                <div class="site2">O nosso site apresenta uma função de uma das nossas propostas, a disponibilização
+                    de vacinas, tanto para cachorros quanto para gatos. Com o objetivo de concientizar o tutor a
+                    importância das vacinas para a saúde de seu animal de estimação.
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <div class="degrade"></div>
+    <div id="quemsomos"></div>
+    <div class="liao">
+        <div class="lideres">
+            <div class="image">
+                <img src="imagis/liao_grandao.png" alt="logotipo Líderes do Futuro" width="460" height="455" />
+            </div>
+            <div class="subtitulo">
+                Líderes do Futuro
+            </div>
+            <div class="subtitulo2">
+                <b>Planejar é construir o caminho perfeito para seu sucesso</b>
+            </div>
+        </div>
+
+        <div class="frases">
+            <div class="sobre">Quem somos nós?</div>
+            <div class="quem">Somos uma equipe que luta contra o abandono de animais,
+                disponibilizando cuidado e novos lares a eles. Juntos realizamos campanhas
+                de conscientização, vacinação e resgate, sempre prezando pelo bem estar dos pets.
+                O projeto foi desenvolvido em conjunto e com muita dedicação de nossa equipe,
+                composta por Amanda Rafaelly, Caetano Augusto, Larissa Alves e Lislaine Gomes,
+                desenvolvido exclusivamente para o Trabalho de Conclusão do Curso de Técnico em
+                Informática pela Etec Paulino Botelho.
+            </div><br>
+
+            <div class="participantes">
+                <div class="cima">
+                    <div class="bro">
+                        <center>
+                            <div class="icon">
+                                <img alt="Ícone Amanda" class="preset_icone"
+                                    src="imagis/participantes/icone_amanda.png" />
+                            </div>
+                            <div class="nome">Amanda</div>
+                            <div class="oq faz">Criação e organização de registros detalhados de todas as
+                                atividades e estratégias executadas no projeto, além da administração das
+                                redes sociais.
+                            </div>
+                    </div>
+                    </center>
+                    <div class="bro">
+                        <center>
+                            <div class="icon">
+                                <img alt="Ícone Lislaine" class="preset_icone"
+                                    src="imagis/participantes/icone_lislaine.png" />
+                            </div>
+                            <div class="nome">Lislaine</div>
+                            <div class="oq faz">Pesquisa criteriosa de informações relevantes, utilizando
+                                fontes confiáveis e atualizadas para garantir a precisão e a integridade
+                                das informações apresentada.
+                            </div>
+                    </div>
+                </div>
+                </center>
+                <div class="baixo">
+                    <div class="bro">
+                        <center>
+                            <div class="icon">
+                                <img alt="Ícone Lislaine" class="preset_icone"
+                                    src="imagis/participantes/icone_larissa.png" />
+                            </div>
+                            <div class="nome">Larissa</div>
+                            <div class="oq faz">Organização estratégica e criativa das ideias, a fim de
+                                proporcionar uma experiência enriquecedora aos usuários, por meio de
+                                informações precisas, atrativas e bem estruturadas.
+                            </div>
+                    </div>
+                    </center>
+                    <div class="bro">
+                        <center>
+                            <div class="icon">
+                                <img alt="Ícone Lislaine" class="preset_icone"
+                                    src="imagis/participantes/icone_caetano.png" />
+                            </div>
+                            <div class="nome">Caetano</div>
+                            <div class="oq faz">Programador principal do site, fazendo a criação e implementação
+                                de códigos, linguagens e tecnologias específicas de HTML, CSS e JavaScript
+                                para design e funcionalidades do site.
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            </center>
+        </div>
+    </div>
+
+    <footer>
+        <a target="_blank" class="rodape" href="pdf/Termos de Uso.pdf">Termo de Serviço</a>
+        <h2 class="t">-</h2>
+        <a target="_blank" class="rodape" href="pdf/Política de Privacidade.pdf">Política de Privacidade</a>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active">
+
+        </div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget(
+            { rootPah: '/app', personalization: 'https://vlibras.gov.br/config/default_logo.json', opacity: 0.5, position: 'L', avatar: 'random', }
+        );
+    </script>
+
+    <!--BOTAO PRA LEVAR A TELA PRO TOPO--><a href="#" class="btn"></a>
+    <script src="script.js"></script>
+</body>
+
+</html>

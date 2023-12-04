@@ -1,0 +1,126 @@
+@media (max-width: 769px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .adot {
+        margin-top: 1rem;
+        border-radius: 8px;
+        width: 20rem;
+        height: 6rem;
+    }
+
+    .adot:hover {
+        height: 6.6rem;
+    }
+
+    .hello {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        display: block;
+        margin-left: 0.5rem;
+    }
+
+    .hello:hover {
+        transform: translateY(-5px);
+    }
+
+    header {
+        height: 3rem;
+        display: flex;
+    }
+
+    .conteudo {
+        top: 24rem;
+        left: 3rem;
+        font-size: 1.2rem;
+        justify-content: flex-end;
+    }
+
+    .descricao {
+        line-height: 24px;
+        padding: 0px;
+        margin-top: 5px;
+    }
+
+    .hola {
+        width: 2rem;
+        color: #fff;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+    }
+
+    .hola:hover {
+        transform: translateY(-8px);
+
+    }
+
+    .direitinha {
+        display: flex;
+        height: 100%;
+        width: 10rem;
+    }
+
+    .redes {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+    }
+
+    .fotoralha{
+        display: none;
+    }
+
+    .cllr{
+        display: flex;
+    }
+
+    .animales::after {
+        top: 22rem;
+        left: 0;
+        background: linear-gradient(180deg, #ff9b3d 10%, rgba(0, 0, 0, 0) 40%)no-repeat;
+    }
+
+    .botoes{
+        top: 20rem;
+        right: 1rem;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .botao{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .img-botao {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .informe{
+        margin-top: 4rem;
+    }
+
+    .bode {
+        display: inline-block;
+        justify-content: space-around;
+        height: 50rem;
+        padding: 10px;
+    }
+
+    section{
+        width: 90%;
+        padding: 3px;
+    }
+}

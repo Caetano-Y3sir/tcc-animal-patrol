@@ -1,0 +1,159 @@
+@media (max-width: 769px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .hello {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        display: block;
+        margin-left: 0.5rem;
+    }
+
+    .hello:hover {
+        transform: translateY(-5px);
+    }
+
+    header {
+        height: 3rem;
+        display: flex;
+    }
+
+    .janjela {
+        top: 2.2rem;
+    }
+
+    .hola {
+        width: 2rem;
+        color: #fff;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-transition: all 300ms ease;
+        transition: all 300ms ease;
+        margin-top: 0.5rem;
+        margin-left: 0rem;
+    }
+
+    .hola:hover {
+        transform: translateY(-8px);
+    }
+
+    .titlo{
+        margin-left: 2rem;
+    }
+
+    .direitinha {
+        display: flex;
+        height: 100%;
+        width: 10rem;
+    }
+
+    .redes {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .logo {
+        width: 20%;
+        height: 100%;
+    }
+
+    .botoes{
+        top: 20rem;
+        right: 1rem;
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .botao{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .img-botao {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .icon {
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .vac{
+        width: 26rem;
+        height: 6rem;
+    }
+
+    .vac:hover {
+        height: 6.5rem;
+    }
+
+
+
+
+
+    .vac-texto{
+        font-family: 'Mooli';
+        font-size: 2rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        border: none;
+    }
+    
+    .image {
+        width: 22rem;
+        height: 10rem;
+        display: flex;
+    }
+    
+    .bordaimg {
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .vacina1 {
+        width: 30rem;
+        height: 10rem;
+        display: flex;
+        border-radius: 1rem;
+    }
+
+    .nome-vac{
+        font-size: 1rem;
+        margin:0.5rem
+    }
+
+    .textin2 {
+        font-size: 11px;
+    }
+
+    .textin {
+        font-size: 14px;
+    }
+
+    .textinho {
+        font-size: 12px
+    }
+
+    .tito {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        font-size: 20px;
+    }
+
+    .vacina2 {
+        width: 30rem;
+        height: 48rem;
+        display: flex;
+    }
+
+    table {
+        font-size: 15px;
+        border-collapse: collapse;
+        border: 1px solid #b34a09;
+    }
+
+    
+}

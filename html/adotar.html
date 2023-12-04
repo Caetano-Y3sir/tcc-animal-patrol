@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../stylecadastro.css">
+  <link rel="shortcut icon" type="image/jpg" href="../imagis/icone pag.png" />
+  <title>Adoção</title>
+</head>
+
+<body bgcolor="#ff9b3d">
+  <div class="login">
+    <div class="page">
+      <div class="voltar">
+        <a href="../index.html">
+          <p class="hello"><b>Voltar à Página Inicial</b></p>
+        </a>
+      </div>
+      <form method="POST" class="formLogin" action="cadastro.php">
+        <h1>Formulário de Adoção</h1>
+        <p>Digite os seus dados de acesso no campo abaixo.</p>
+        <label for="text">Nome completo:</label>
+        <input type="text" placeholder="Digite seu nome completo" autofocus="true" required />
+        <label for="number">CPF (não coloque os pontos, apenas o traço)</label>
+        <input type="number" placeholder="xxxxxxxxx-xx" required />
+        <label for="text">Endereço</label>
+        <input type="text" placeholder="Digite suas informações de moradia" required />
+        <div>
+          <label for="radio">Você mora em casa ou predio?</label>
+          <select name="vacina" id="" required>
+            <option selected disabled value>Casa</option>
+            <option value="">Prédio</option>
+          </select>
+        </div>
+
+        <select class="nome-adoc" required>
+          <option selected disabled value>Qual o nome do animal que deseja adotar?</option>
+          <option value="little">Little</option>
+          <option value="simba">Simba</option>
+          <option value="mel">Mel</option>
+          <option value="duke">Duke</option>
+          <option value="fred">Fred</option>
+          <option value="katy">Katy</option>
+          <option value="duquesa">Duquesa</option>
+        </select>
+        <p>Agende o horário que queira vir</p>
+        <input type="datetime-local" required />
+        <a target="_blank" class="rodape" href="">Termo de Serviço</a>
+        <a target="_blank" class="rodape" href="">Política de Privacidade</a>
+        <input type="submit" value="Enviar" class="btn" />
+      </form>
+    </div>
+</body>
+
+</html>

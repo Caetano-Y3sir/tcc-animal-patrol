@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylevacinas.css">
+    <link rel="stylesheet" href="../vacresp.css">
+    <link rel="shortcut icon" type="image/jpg" href="../imagis/icone pag.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
+    <title>Vacinas</title>
+</head>
+
+<body bcolor=#E08B26g>
+<header>
+    <div class="logo">
+        <img src="../imagis/MicrosoftTeams-image (1).png" alt="" class="fotoralha">
+    </div>
+
+    <div class="botones"> <!--OS BOTÕES-->
+        <div class="butones">
+            <div class="esquerdinha">
+                <a href="../index.html">
+                    <p class="hello">Início</p>
+                </a>
+                <a href="animal.html">
+                    <p class="hello">Vacinas</p>
+                </a>
+                <a href="../index.html#quemsomos">
+                    <p class="hello">Quem Somos</p>
+                </a>
+                <a href="#janela1" rel="modal">
+                    <p class="hello">Fale Conosco</p>
+                </a>
+            </div>
+            <div class="direitinha">
+                <a href="https://www.instagram.com/animal_patrol2023/" target="_blank">
+                    <p class="hola"><img src="../imagis/instagram_branco.png" alt="instagram" class="redes"></p>
+                </a>
+                <a href="https://twitter.com/AnimalPatr5676" target="_blank">
+                    <p class="hola"><img src="../imagis/twitter.png" alt="twitter" class="redes"></p>
+                </a>
+                <a href="#janela2" rel="login-cad">
+                    <p class="hola"><img src="../imagis/icon_perfil.png" alt="perfil do usuário" class="redes"></p>
+                </a>
+            </div>
+
+            <div class="window" id="janela1">
+                <form method="POST" class="formLogin">
+                    <div class="acbecalho">
+                    <h1>Nos envie uma mensagem</h1>
+                    </div>
+                    <p>Nos informe sua experiência no nosso site para ajudar a melhorá-lo</p>
+                    <label for="text">Nome</label>
+                    <input type="text" placeholder="Digite seu nome" autofocus="true" required />
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail" autofocus="true" required />
+                    <label for="password">Sua Mensagem</label>
+                    <input type="text" placeholder="Digite sua mensagem" required />
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+                </form>
+            </div>
+
+            <div id="maskra"></div>
+            <div class="janjela" id="janela2">
+                <a href="html/login.html">
+                    <p class="log in">Login</p>
+                </a>
+                <a href="html/cadastro.html">
+                    <p class="log w">Cadastro</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- mascara para cobrir o site -->
+        <div id="mascara"></div>
+    </div>
+</header>
+
+<center>
+    <button class="vac">
+        <a href="agendamento-cachorro.html" class="vac-texto">Agende a vacinação do seu cachorro aqui</a>
+    </button>
+</center>
+
+<div class="titlo">
+    <h1>Lista de Vacinas para Cachorros:</h1>
+</div>
+
+<center>
+    <div class="vacina1">
+        <div class="image">
+            <img class="bordaimg" src="../imagis/vacina_antirrabica.jpg" />
+        </div>
+        <div class="textin">
+            <h1 class="nome-vac">Vacina Antirrábica</h1>
+            <h2 class="textin">Usada para prevenir a raiva, pode ser usada para prevenir a 
+                raiva antes e durante um período de tempo após a exposição ao 
+                vírus, como, por exemplo, pela mordida de um cão ou morcego.</h2>
+        </div>
+    </div>
+</center>
+<p></p>
+<center>
+    <div class="vacina1">
+        <div class="image">
+            <img class="bordaimg" src="../imagis/vacinas_dos.jpg" />
+        </div>
+        <div class="textin">
+            <h1 class="nome-vac">Vacinas V8 e V10</h1>
+            <h2 class="textin2">V8 auxilia na prevenção da cinomose, hepatite infecciosa 
+                canina, parainfluenza, parvovirose, coronavirose e 
+                leptospirose (sorovares Canicola e Icterohaemorrhagiae); 
+                <br>V10 protege contra todas estas doenças e mais algumas 
+                cepas de leptospirose (Grippotyphosa e Pomona).</h2>
+        </div>
+    </div>
+</center>
+<p></p>
+<center>
+    <div class="vacina1">
+        <div class="image">
+            <img class="bordaimg" src="../imagis/vacinas-para-cachorro-3.jpg" />
+        </div>
+        <div class="textin">
+            <h1 class="nome-vac">Vacina contra gripe canina</h1>
+            <h2 class="textinho">A vacina da gripe protege contra todo o complexo 
+                respiratório infeccioso nos cães, e é considerada 
+                uma vacina não essencial, ou seja, para determinar 
+                se seu cão deve ou não tomar deve passar por uma 
+                avaliação com o médico veterinário.</h2>
+        </div>
+    </div>
+</center>
+<p></p>
+<center>
+    <div class="vacina2">
+
+        <div class="pagrafo">
+            <h1><u>A importância de vacinar seu cachorro</u></h1>
+            <h2>A vacinação para cães é um dos cuidados mais importantes garantidos para os animais.
+                Não só para manter os amiguinhos de quatro patas saudáveis, mas para garantir o bem-estar
+                dos tutores, já que algumas doenças podem ser transmitidas entre os cachorros e as pessoas.<p></p>
+                A orientação básica sobre esse assunto é levar o cachorro ao veterinário. Essa é a primeira
+                atitude responsável ao adotar um pet. Dessa forma, você pode acompanhar a tabela de vacinação
+                para cães desde o início.<p></p>
+                Contar com a ajuda de um profissional é muito importante para garantir a imunização completa
+                do animal. A seguir, você confere qual vacina para cachorro é obrigatória, para que cada uma
+                serve e quando devem ser aplicadas.
+            </h2>
+        </div>
+    </div>
+    </div>
+</center>
+
+<center>
+<caption>
+    <div class="tito">
+        <h2> Cronograma de vacinação do cachorro:</h2>
+    </div>
+</caption>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Vacina</th>
+            <th>1º Dose</th>
+            <th>2º Dose</th>
+            <th>3º Dose</th>
+            <th>Dose de reforço (todos os anos)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>V8 ou V10</td>
+            <td>A partir de 6 semanas</td>
+            <td>4 semanas após a 1ª dose</td>
+            <td>4 semanas após a 2º dose</td>
+            <td>1 ano após a última dose</td>
+        </tr>
+        <tr>
+            <td>Gripe canina</td>
+            <td>A partir de 8 semanas</td>
+            <td>2 a 4 semanas após a 1ª dose</td>
+            <td>-</td>
+            <td>1 ano após a última dose</td>
+        </tr>
+        <tr>
+            <td>Antirrábica</td>
+            <td>A partir de 12 semanas</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1 ano após a última dose</td>
+        </tr>
+    </tbody>
+</table>
+</center>
+<p></p><br>
+<div class="degrade"></div>
+<footer>
+    <a target="_blank" class="rodape" href="pdf/Termos de Uso.pdf">Termo de Serviço</a>
+    <h2 class="t">-</h2>
+    <a target="_blank" class="rodape" href="pdf/Política de Privacidade.pdf">Política de Privacidade</a>
+</footer>
+
+<!--BOTÃO QUE LEVA PRO TOPO--><a href="#" class="btn"></a>
+
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylevacinas.css">
+    <link rel="stylesheet" href="../vacresp.css">
+    <link rel="shortcut icon" type="image/jpg" href="../imagis/icone pag.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
+    <title>Vacinas</title>
+</head>
+
+<body bcolor=#E08B26g>
+<header>
+    <div class="logo">
+        <img src="../imagis/MicrosoftTeams-image (1).png" alt="" class="fotoralha">
+    </div>
+
+    <div class="botones"> <!--OS BOTÕES-->
+        <div class="butones">
+            <div class="esquerdinha">
+                <a class="hello" href="../index.html">
+                    <p class="hello">Início</p>
+                </a>
+                <a class="hello" href="animal.html">
+                    <p class="hello">Vacinas</p>
+                </a>
+                <a href="../index.html#quemsomos">
+                    <p class="hello">Quem Somos</p>
+                </a>
+                <a href="#janela1" rel="modal">
+                    <p class="hello">Fale Conosco</p>
+                </a>
+            </div>
+            <div class="direitinha">
+                <a href="https://www.instagram.com/animal_patrol2023/" target="_blank">
+                    <p class="hola"><img src="../imagis/instagram_branco.png" alt="instagram" class="redes"></p>
+                </a>
+                <a href="https://twitter.com/AnimalPatr5676" target="_blank">
+                    <p class="hola"><img src="../imagis/twitter.png" alt="twitter" class="redes"></p>
+                </a>
+                <a href="#janela2" rel="login-cad">
+                    <p class="hola"><img src="../imagis/icon_perfil.png" alt="perfil do usuário" class="redes"></p>
+                </a>
+            </div>
+
+            <div class="window" id="janela1">
+                <form method="POST" class="formLogin">
+                    <div class="acbecalho">
+                    <h1>Nos envie uma mensagem</h1>
+                    </div>
+                    <p>Nos informe sua experiência no nosso site para ajudar a melhorá-lo</p>
+                    <label for="text">Nome</label>
+                    <input type="text" placeholder="Digite seu nome" autofocus="true" required />
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail" autofocus="true" required />
+                    <label for="password">Sua Mensagem</label>
+                    <input type="text" placeholder="Digite sua mensagem" required />
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+                </form>
+            </div>
+
+            <div id="maskra"></div>
+            <div class="janjela" id="janela2">
+                <a href="html/login.html">
+                    <p class="log in">Login</p>
+                </a>
+                <a href="html/cadastro.html">
+                    <p class="log w">Cadastro</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- mascara para cobrir o site -->
+        <div id="mascara"></div>
+    </div>
+</header>
+
+<center>
+    <button class="vac">
+        <a href="agendamento-gato.html" class="vac-texto">Agende a vacinação do seu gato aqui</a>
+    </button>
+</center>
+
+<div class="titlo">
+    <h1>Lista de Vacinas para Gatos:</h1>
+</div>
+
+<center>
+    <div class="vacina1">
+        <div class="image">
+            <img class="bordaimg" src="../imagis/gato-antirrabica.jpg" />
+        </div>
+        <div class="textin">
+                <p class="nome-vac">Vacina de gato polivalente (V3, V4, V5)</p>
+            <h2 class="textin2">A primeira dose da polivalente, seja V3, V4 ou vacina V5 
+                para gatos, é aplicada a partir de 60 dias. A segunda dose 
+                deve ser feita 21 dias depois. Após mais 21 dias, é aplicada 
+                a terceira e última dose. É necessário realizar o reforço da 
+                vacina polivalente para gatos todos os anos</h2>
+        </div>
+    </div>
+</center>
+<p></p>
+<center>
+    <div class="vacina1">
+        <div class="image">
+            <img class="bordaimg" src="../imagis/vacina_gato.jpg" />
+        </div>
+        <div class="textin">
+            <p class="nome-vac">Vacina de gato antirrábica</p>
+            <h2 class="textin">Pode ser aplicada a partir do 4° mês de vida, após 
+                terminar todas as doses da polivalente. A vacina de gato 
+                antirrábica também necessita de reforço anual.</h2>
+        </div>
+    </div>
+</center>
+<p></p>
+<center>
+    <div class="vacina1">
+        <div class="image">
+            <img class="bordaimg" src="../imagis/gateo_vacina.jpg" />
+        </div>
+        <div class="textin">
+            <p class="nome-vac">Felocell CVR</p>
+            <h2 class="textin">É indicada para vacina ção de gatos sadios como 
+                auxiliar na prevenção da infecção do vírus da 
+                rinotraqueíte felina, calicivírus felino e vírus 
+                da panleu copenia felina.</h2>
+        </div>
+    </div>
+</center>
+<p></p>
+<center>
+    <div class="vacina2">
+
+        <div class="pagrafo">
+            <h1><u>A importância de vacinar seu gato</u></h1>
+            <h2>É importante saber quais as vacinas para gatos 
+                que deve obrigatoriamente tomar logo nos 
+                primeiros meses de vida e reforçadas anualmente. 
+                A primeira vacina de gato é a polivalente, que 
+                protege, de uma só vez, contra várias doenças. 
+                Pode ser a V3 (tripla), a V4 (quádrupla) ou 
+                vacina V5 para gatos (quíntupla). A V3 protege 
+                contra panleucopenia felina, calicivirose e 
+                rinotraqueíte. A V4 protege contra essas mesmas 
+                doenças e a clamidiose. Já a vacina V5 para 
+                gatos combate todas as doenças anteriores, 
+                também protege contra a FeLV (leucemia felina). 
+                Além da polivalente, a vacina para gato 
+                antirrábica, contra a raiva felina, também é 
+                obrigatória. Existem ainda, as vacinas não 
+                obrigatórias.
+            </h2>
+        </div>
+    </div>
+    </div>
+</center>
+
+
+<caption>
+    <div class="tito">
+        <h2> Cronograma de vacinação do gato:</h2>
+    </div>
+</caption>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Vacina</th>
+            <th>1º Dose</th>
+            <th>2º Dose</th>
+            <th>3º Dose</th>
+            <th>Dose de reforço (todos os anos)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>V3, V4 e V5</td>
+            <td>A partir de 6 semanas</td>
+            <td>4 semanas após a 1ª dose</td>
+            <td>4 semanas após a 2º dose</td>
+            <td>1 ano após a última dose</td>
+        </tr>
+        <tr>
+            <td>Antirrábica</td>
+            <td>A partir de 12 semanas</td>
+            <td>-</td>
+            <td>-</td>
+            <td>1 ano após a última dose</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td>Felocell CVR</td>
+        <td>A partir de 4 meses</td>
+        <td>21 dias após a 1ª dose</td>
+        <td>21 dias após a 2ª dose</td>
+        <td>1 ano após a última dose</td>
+    </tfoot>
+</table>
+<p></p><br>
+<div class="degrade"></div>
+<footer>
+    <a target="_blank" class="rodape" href="pdf/Termos de Uso.pdf">Termo de Serviço</a>
+    <h2 class="t">-</h2>
+    <a target="_blank" class="rodape" href="pdf/Política de Privacidade.pdf">Política de Privacidade</a>
+</footer>
+
+<!--BOTÃO QUE LEVA PRO TOPO--><a href="#" class="btn"></a>
+
+</body>
+
+</html>
